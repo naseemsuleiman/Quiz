@@ -6,7 +6,7 @@ import csv
 class QuizGame:
     def __init__(self):
         self.questions_per_round = 4
-        self.time_limit = 10  # seconds
+        self.time_limit = 10  
         self.score = 0
         self.timer_expired = False
         self.current_answer = None
